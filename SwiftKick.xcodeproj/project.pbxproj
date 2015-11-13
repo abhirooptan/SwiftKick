@@ -13,6 +13,10 @@
 		1BC87B2F1BF62BD6005917C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC87B2E1BF62BD6005917C4 /* Assets.xcassets */; };
 		1BC87B321BF62BD6005917C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC87B301BF62BD6005917C4 /* LaunchScreen.storyboard */; };
 		1BC87B3D1BF62BD6005917C4 /* SwiftKickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC87B3C1BF62BD6005917C4 /* SwiftKickTests.swift */; };
+		1BC87B4B1BF63010005917C4 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC87B471BF63010005917C4 /* clap.wav */; settings = {ASSET_TAGS = (); }; };
+		1BC87B4C1BF63010005917C4 /* hihat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC87B481BF63010005917C4 /* hihat.wav */; settings = {ASSET_TAGS = (); }; };
+		1BC87B4D1BF63010005917C4 /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC87B491BF63010005917C4 /* kick.wav */; settings = {ASSET_TAGS = (); }; };
+		1BC87B4E1BF63010005917C4 /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC87B4A1BF63010005917C4 /* snare.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		1BC87B381BF62BD6005917C4 /* SwiftKickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC87B3C1BF62BD6005917C4 /* SwiftKickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKickTests.swift; sourceTree = "<group>"; };
 		1BC87B3E1BF62BD6005917C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC87B471BF63010005917C4 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clap.wav; path = "SwiftKick Assets/clap.wav"; sourceTree = "<group>"; };
+		1BC87B481BF63010005917C4 /* hihat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hihat.wav; path = "SwiftKick Assets/hihat.wav"; sourceTree = "<group>"; };
+		1BC87B491BF63010005917C4 /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kick.wav; path = "SwiftKick Assets/kick.wav"; sourceTree = "<group>"; };
+		1BC87B4A1BF63010005917C4 /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snare.wav; path = "SwiftKick Assets/snare.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 				1BC87B261BF62BD6005917C4 /* SwiftKick */,
 				1BC87B3B1BF62BD6005917C4 /* SwiftKickTests */,
 				1BC87B251BF62BD6005917C4 /* Products */,
+				1BC87B4F1BF63025005917C4 /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +103,17 @@
 				1BC87B3E1BF62BD6005917C4 /* Info.plist */,
 			);
 			path = SwiftKickTests;
+			sourceTree = "<group>";
+		};
+		1BC87B4F1BF63025005917C4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1BC87B471BF63010005917C4 /* clap.wav */,
+				1BC87B481BF63010005917C4 /* hihat.wav */,
+				1BC87B491BF63010005917C4 /* kick.wav */,
+				1BC87B4A1BF63010005917C4 /* snare.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +196,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC87B4D1BF63010005917C4 /* kick.wav in Resources */,
+				1BC87B4B1BF63010005917C4 /* clap.wav in Resources */,
 				1BC87B321BF62BD6005917C4 /* LaunchScreen.storyboard in Resources */,
 				1BC87B2F1BF62BD6005917C4 /* Assets.xcassets in Resources */,
+				1BC87B4E1BF63010005917C4 /* snare.wav in Resources */,
+				1BC87B4C1BF63010005917C4 /* hihat.wav in Resources */,
 				1BC87B2D1BF62BD6005917C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
